@@ -1,4 +1,4 @@
-# Mead, Poweel, Flaming Gorge Reservoir Capacity
+# Mead, Powell, Flaming Gorge Reservoir Capacity
 
 This repository plots a live capacity view of the Lake Mead, Lake Powell, and Flaming Gorge reservoir system. The script downloads current Bureau of Reclamation Hydrodata storage records, converts each reservoir to percent of live capacity above dead pool, and overlays minimum power generation reference levels.
 
