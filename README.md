@@ -1,4 +1,4 @@
-# Cadillac Desert Reservoir Capacity
+# Mead, Poweel, Flaming Gorge Reservoir Capacity
 
 This repository plots a live capacity view of the Lake Mead, Lake Powell, and Flaming Gorge reservoir system. The script downloads current Bureau of Reclamation Hydrodata storage records, converts each reservoir to percent of live capacity above dead pool, and overlays minimum power generation reference levels.
 
@@ -11,25 +11,25 @@ The black curve shows the combined Mead/Powell/Flaming Gorge system as a percent
 Install the Python dependencies:
 
 ```bash
-python3 -m pip install pandas matplotlib
+python -m pip install pandas matplotlib
 ```
 
 Generate the default plot:
 
 ```bash
-python3 plot_MeadSystem_capacity.py
+python plot_MeadSystem_capacity.py
 ```
 
 Plot a specific range:
 
 ```bash
-python3 plot_MeadSystem_capacity.py --start-year 2021 --end-year 2026
+python plot_MeadSystem_capacity.py --start-year 2021 --end-year 2026
 ```
 
 Plot the last N years ending at a selected year:
 
 ```bash
-python3 plot_MeadSystem_capacity.py --years 30 --end-year 2026 --output storage.png
+python plot_MeadSystem_capacity.py --years 30 --end-year 2026 --output storage.png
 ```
 
 ## Output
